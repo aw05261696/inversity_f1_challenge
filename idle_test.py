@@ -37,16 +37,16 @@ def driver_select(driver):
         df = pd.DataFrame(data)
 
         driver_info={
-            "meeting" : (df.iloc[0,0]),       #0
-            "session" : (df.iloc[0,1]),        #1
+            "meeting" : (df.iloc[0,0]),     #0
+            "session" : (df.iloc[0,1]),     #1
             "number" : (df.iloc[0,2]),      #2
-            "date" : (df.iloc[0,3]),         #3
-            "rpm" : (df.iloc[0,4]), #4
-            "speed" : (df.iloc[0,5]),        #5
-            "gear" : (df.iloc[0,6]),         #6
-            "throttle" : (df.iloc[0,7]),         #7
-            "drs" : (df.iloc[0,8]),       #8
-            "brake" : (df.iloc[0,9]),    #9
+            "date" : (df.iloc[0,3]),        #3
+            "rpm" : (df.iloc[0,4]),         #4
+            "speed" : (df.iloc[0,5]),       #5
+            "gear" : (df.iloc[0,6]),        #6
+            "throttle" : (df.iloc[0,7]),    #7
+            "drs" : (df.iloc[0,8]),         #8
+            "brake" : (df.iloc[0,9]),       #9
         }
 
         print(driver_info)
